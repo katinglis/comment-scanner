@@ -1,0 +1,18 @@
+ Author: Katherine Inglis
+   
+ How to Run:
+
+ java -jar CommentScanner.jar
+ - When prompted for a file name, enter test.js or test.py or test.java, or any other file you have prepared for testing.
+ - The provided test cases are not included here because they contain Capital One copyright code 
+
+ Additional Testing:
+ - There's a junit test called CommentScannerTest.java which checks the output for the 3 provided test cases
+ 
+ Design Decisions:
+ - Language choice. I chose Java because I saw it listed prominently in the job posting 
+   
+ Limitations:
+ - doesn't deal with comments in strings
+ - doesn't deal with multiple comments on the same line: /* comment 1 */ /* comment 2 */ // comment 3
+ - only handles .java, .js, .py file extensions  
